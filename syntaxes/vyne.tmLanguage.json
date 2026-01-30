@@ -23,7 +23,7 @@
       "patterns": [
         {
           "name": "keyword.control.vyne",
-          "match": "\\b(if|while|return|module|dismiss|group|sub)\\b"
+          "match": "\\b(if|while|return|module|dismiss|group|sub|true|false)\\b"
         }
       ]
     },
@@ -66,7 +66,7 @@
         },
         {
           "name": "support.class.vyne",
-          "match": "\\b(vcore|vglib)\\b"
+          "match": "\\b(vcore|vglib|vmem)\\b"
         }
       ]
     }
